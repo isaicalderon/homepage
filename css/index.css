@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+	color: #7c7c7c;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background: #e5e5e5;
+	/*background: #eaeaea;*/
+}
+
+header{
+ 	padding: 1px 15px;
+	text-align: left;
+	background-color: #262626;
+	box-shadow: 0 0 10px #000;
+	/*margin-bottom: 10px;*/
+	/*margin-top: 0px;*/
+}
+header h1{
+	color: #fff;
+}
+
+.menu{
+	float: left;
+	width: 20%;
+	/*background: #fff;*/
+	text-align: left;
+	/*padding: 0% 0.5%;*/
+}
+.menu a {
+	/*background-color:#ccc;*/
+	padding:8px;
+	margin-top:7px;
+	margin-bottom: 7px;
+	display: block;
+	width:100%;
+	/*color:  #ccc;*/
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background-color:#ccc;
+}
+.active{
+	background-color:#eaeaea;
+}
+.main{
+	background-color: #fff;
+	float: left;
+	width: 60%;
+	padding: 10px 20px;
+    border: 10px solid #e5e5e5;
+	border-top: 0;
+}
+
+.main-bg{
+	background-color: #fff;
+	float: left;
+	width: 80%;
+	padding: 25px 20px;
+    border: 10px solid #e5e5e5;
+	border-top: 0;
+}
+
+.ads{
+	float: left;
+	width: 20%;
+	/*background: #fff;*/
+	/*padding: 15px;*/
+	/*text-align: center;*/
+
+}
+.ads-sec{
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.ads-img{
+	margin-top: 5px;
+	width: 100%;
+}
+.ads-p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+section{
+	overflow: auto;
+	padding: 10px 30px; 
+}
+footer{
+	background-color: #fff;
+	text-align:center;
+	padding:10px;
+	margin-top:7px;
+	border-radius: 10px;
+}
+.img-h{
+	width: 30%;
+	float: left;
+    margin-right: 10px;
+	margin-bottom: 15px;
+}
+.no-bottom{
+	margin-bottom: 0px;
+}
+
+.sec-fotos{
+	float: left;
+	width: 30%;
+    margin-left: 13px;
+	margin-bottom: 13px;
+	padding: 0;
+    /*box-shadow: 0 0 10px #000;*/
+
+}
+.sec-h4, .sec-p{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.sec-p{
+	width: 90%;
+	margin-bottom: 10px;
+}
+.img-icon{
+    width: 2%;
+    float: left;
+    margin-top: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 800px){
+	.menu, .main, .main-bg, .ads{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.main{
+		border: none;
+	}
+	.main-bg{
+		border: none;
+	}
+	.img-h{
+		width: 100%;
+	}
+	h2{
+		text-align: center;
+	}
+	.sec-fotos{
+		width: 94%;
+
+	}
+	.img-icon{
+		width: 5%;
+	}
+} 
